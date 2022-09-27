@@ -1,0 +1,36 @@
+.root{
+  position: relative;
+  min-height: 50px;
+  & input{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #fe5f1e;
+    background: none;
+    padding: 0px 50px 0 15px;
+    border-radius: 100px;
+    min-height: 50px;
+    font-size: 14px;
+    line-height: 120%;
+    min-width: 250px;
+  }
+  & button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: all .3s;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='50' height='50' viewBox='0 0 50 50' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M26.4434 24.5002L30.5978 20.3458C31.1346 19.8091 31.1346 18.9393 30.5978 18.4026C30.0611 17.8658 29.1914 17.8658 28.6546 18.4026L24.5002 22.5574L20.3458 18.403C19.8091 17.8663 18.9393 17.8663 18.4026 18.403C17.8658 18.9398 17.8658 19.8095 18.4026 20.3463L22.557 24.5007L18.4026 28.6551C17.8658 29.1919 17.8658 30.0616 18.4026 30.5983C18.9393 31.1351 19.8091 31.1351 20.3458 30.5983L24.5002 26.4439L28.6546 30.5983C29.1914 31.1351 30.0611 31.1351 30.5978 30.5983C31.1346 30.0616 31.1346 29.1918 30.5978 28.6551L26.4434 24.5002Z' fill='black' fill-opacity='0.56'/%3E%3C/svg%3E");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,0);
+    &:hover, &:focus{
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='50' height='50' viewBox='0 0 50 50' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M26.4434 24.5002L30.5978 20.3458C31.1346 19.8091 31.1346 18.9393 30.5978 18.4026C30.0611 17.8658 29.1914 17.8658 28.6546 18.4026L24.5002 22.5574L20.3458 18.403C19.8091 17.8663 18.9393 17.8663 18.4026 18.403C17.8658 18.9398 17.8658 19.8095 18.4026 20.3463L22.557 24.5007L18.4026 28.6551C17.8658 29.1919 17.8658 30.0616 18.4026 30.5983C18.9393 31.1351 19.8091 31.1351 20.3458 30.5983L24.5002 26.4439L28.6546 30.5983C29.1914 31.1351 30.0611 31.1351 30.5978 30.5983C31.1346 30.0616 31.1346 29.1918 30.5978 28.6551L26.4434 24.5002Z' fill='%23FE5F1E'/%3E%3C/svg%3E");
+    }
+  }
+}
